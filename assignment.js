@@ -1,15 +1,15 @@
+// https://github.com/rayhanulislampatwary/assignment-3
 
 // 01 : kilometerToMeter
-
 function kilometerToMeter(kilometer){
     var meters = kilometer * 1000;
     return meters;
 }
-// var result = kilometerToMeter(19);
-// console.log(result);
+
+
+
 
 // 02 : budgetCalculator
-
 function budgetCalculator(watch, mobile, laptop){
     var totalWatchPrice = watch * 50;
     var totalMobilePrice = mobile * 100;
@@ -19,11 +19,10 @@ function budgetCalculator(watch, mobile, laptop){
     return totalPrice;
 }
 
-// var total = budgetCalculator(1, 1, 1);
-// console.log(total);
+
+
 
 // 03 : hotelCost
-
 function hotelCost(days){
     var totalCost = 0;
     if(days <= 10){
@@ -45,19 +44,17 @@ function hotelCost(days){
     return totalCost;
 }
 
-// var result = hotelCost(214);
-// console.log(result);
+
+
 
 // 04 : megaFriend
 function megaFriend(names){
     var largestName = "";
     for (i = 0; i <= names.length; i++){
         var element = names[i];
-        if(largestName.length < element.length ){
+        if(largestName.length < element.length){
             largestName = element;
         }
     }
     return largestName;
 }
-// var longname = megaFriend(["kajol", "rayhan", "mim"]);
-// console.log(longname);
